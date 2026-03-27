@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Package, Users, Activity } from 'lucide-react';
+import { Package, Activity } from 'lucide-react';
 
 const About: React.FC = () => {
   const { t } = useLanguage();
@@ -15,11 +15,6 @@ const About: React.FC = () => {
       icon: <Package size={32} />,
       title: t.stats.bagsTitle,
       value: t.stats.bagsValue
-    },
-    {
-      icon: <Users size={32} />,
-      title: t.stats.employeesTitle,
-      value: t.stats.employeesValue
     }
   ];
 
