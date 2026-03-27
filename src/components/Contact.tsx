@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { MapPin, Phone, Mail, FileText } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
@@ -8,8 +8,7 @@ const Contact: React.FC = () => {
   const contactInfo = [
     { icon: <MapPin size={24} />, text: t.contact.address },
     { icon: <Phone size={24} />, text: t.contact.phone },
-    { icon: <Mail size={24} />, text: t.contact.email },
-    { icon: <FileText size={24} />, text: `CUIT: ${t.contact.cuit}` }
+    { icon: <Mail size={24} />, text: t.contact.email }
   ];
 
   return (
