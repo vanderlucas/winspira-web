@@ -101,7 +101,7 @@ const translations: Translations = {
     },
     services: {
       title: 'Nuestras Operaciones',
-      production: 'Producción en Pampa del Infierno, Chaco',
+      production: 'Producción en Chaco',
       productionDesc: 'Desarrollamos procesos de carbonización mediante hornos especialmente destinados a la transformación de madera en carbón vegetal.',
       barranqueras: 'Logística en Barranqueras, Chaco',
       barranquerasDesc: 'Instalaciones destinadas al almacenamiento y paletizado de bolsas de carbón vegetal para facilitar su consolidación y despacho hacia los puertos.',
@@ -167,7 +167,7 @@ const translations: Translations = {
     },
     services: {
       title: 'Our Operations',
-      production: 'Production in Pampa del Infierno, Chaco',
+      production: 'Production in Chaco',
       productionDesc: 'We develop carbonization processes using ovens specially designed for the transformation of wood into charcoal.',
       barranqueras: 'Logistics in Barranqueras, Chaco',
       barranquerasDesc: 'Facilities allocated for the storage and palletizing of charcoal bags to facilitate consolidation and dispatch to ports.',
